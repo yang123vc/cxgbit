@@ -309,6 +309,7 @@ int cxgbi_ppm_release(struct cxgbi_ppm *ppm)
 	}
 	return 1;
 }
+EXPORT_SYMBOL(cxgbi_ppm_release);
 
 static struct cxgbi_ppm_pool *ppm_alloc_cpu_pool(unsigned int *total,
 						 unsigned int *pcpu_ppmax)
